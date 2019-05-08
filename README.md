@@ -106,7 +106,7 @@ Similarly replace <uri_from_below> with this uris to launch Slice mapped to scre
           content://com.hiteshsahu.slicedemo.advance/combine  
           
 <p align="center">
-<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/combine.png" width="60%">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/combine.png" width="100%">
 </p>
           
           
