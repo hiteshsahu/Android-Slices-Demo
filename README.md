@@ -10,6 +10,11 @@ Follow the steps to get started with slices http://hiteshsahu.com/blogs/android_
     
 2. Download, Build, Install & Launch this project.
 
+
+<p align="center">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/home.png" width="80%">
+</p>
+
 3. Execute this command from adb termainal:
 
 
@@ -18,6 +23,11 @@ Follow the steps to get started with slices http://hiteshsahu.com/blogs/android_
  For example to Launch Home screen from Slice execute. Note the "-" after slice.
 
 >       adb shell am start -a android.intent.action.VIEW -d slice-content://com.hiteshsahu.slicedemo/
+
+
+<p align="center">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/slice_home.png" width="80%">
+</p>
 
 
 ### Basic SLices
@@ -42,6 +52,10 @@ Similarly replace <uri_from_below> with this uris to launch Slice mapped to scre
 
           content://com.hiteshsahu.slicedemo/etc : 
           
+<p align="center">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/basic_usage.png" width="80%">
+</p>
+          
           
 ### Advance Slices
 
@@ -55,21 +69,44 @@ Similarly replace <uri_from_below> with this uris to launch Slice mapped to scre
 
          content://com.hiteshsahu.slicedemo.advance/toggle 
          
+         <p align="center">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/adv1.png" width="80%">
+</p>
+       
+         
 -  __SLICE WITH RANGE SLIDER & PROGRESS BAR__ Show how to show progress bar and Slider in Slices & control Media Volume of the device 
 
           content://com.hiteshsahu.slicedemo.advance/slider  
           
+          
+                   <p align="center">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/slider.png" width="80%">
+</p>
+          
 -  __SLICE WITH GRID__ Show how to show Grid of Images in Slices
 
           content://com.hiteshsahu.slicedemo.advance/grid  
+          
+          
+                   <p align="center">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/grid.png" width="80%">
+</p>
        
 -  __SLICE WITH WIFI LIST__ Show how to show List of Wifi along with show more option. 
 
           content://com.hiteshsahu.slicedemo.advance/list  
           
+                   <p align="center">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/wifi.png" width="80%">
+</p>
+          
                  
--  __COMPLEX SLIC__: Complex slice with more than one grid and row
+-  __COMPLEX SLICE__: Complex slice with more than one grid and row
 
           content://com.hiteshsahu.slicedemo.advance/combine  
+          
+<p align="center">
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/combine.png" width="60%">
+</p>
           
           
