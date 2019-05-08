@@ -1,8 +1,25 @@
 # Android-Slices-Demo
 
-This project explains how to use Android Jetpack to create Slices.
+### This project explains how to use Android Jetpack to create Slices.
 
-Follow the steps to get started with slices http://hiteshsahu.com/blogs/android_slices
+Topic covered: 
+
+1.  __Basic slices__ shared data through slices with activity
+
+2.  __Advance Slices__ : 
+  - Live List 
+  - Grid 
+  - Header 
+  - Toggle Switches 
+  - Multiple Actions passing 
+  - Live Slider 
+  - Live Progress Bar & 
+  - Complex Slices
+
+Follow the steps to get started with slices from blog: http://hiteshsahu.com/blogs/android_slices
+
+
+## Steps to build slices
 
 1. Install SliceViewer APK:
 
