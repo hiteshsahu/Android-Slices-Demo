@@ -69,7 +69,7 @@ Similarly replace <uri_from_below> with this uris to launch Slice mapped to scre
 
          content://com.hiteshsahu.slicedemo.advance/toggle 
          
-         <p align="center">
+ <p align="center">
 <img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/adv1.png" width="80%">
 </p>
        
@@ -79,7 +79,7 @@ Similarly replace <uri_from_below> with this uris to launch Slice mapped to scre
           content://com.hiteshsahu.slicedemo.advance/slider  
           
           
-                   <p align="center">
+<p align="center">
 <img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/slider.png" width="80%">
 </p>
           
@@ -88,7 +88,7 @@ Similarly replace <uri_from_below> with this uris to launch Slice mapped to scre
           content://com.hiteshsahu.slicedemo.advance/grid  
           
           
-                   <p align="center">
+<p align="center">
 <img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/grid.png" width="80%">
 </p>
        
@@ -96,7 +96,7 @@ Similarly replace <uri_from_below> with this uris to launch Slice mapped to scre
 
           content://com.hiteshsahu.slicedemo.advance/list  
           
-                   <p align="center">
+<p align="center">
 <img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/wifi.png" width="80%">
 </p>
           
