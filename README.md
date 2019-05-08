@@ -18,6 +18,54 @@ Topic covered:
 
 Follow the steps to get started with slices from blog: http://hiteshsahu.com/blogs/android_slices
 
+# Android Slices Tutorial
+
+
+>  ### Continuing in last post here I gone explain how to create Slices for your application. If you have not read it please go through my previous post [Understanding Slices](http://hiteshsahu.com/blogs/android_slices) to get your setup ready.
+
+
+## First Get your setup ready
+
+You need to install [__Slice Viewer__](https://github.com/googlesamples/android-SliceViewer/releases) apk to view your slices. Download latest relase of slice viewer apk from [https://github.com/googlesamples/android-SliceViewer/releases](https://github.com/googlesamples/android-SliceViewer/releases) & install it using command:
+
+> `adb install -r -t slice-viewer.apk`
+
+where :
+ - -r: replaces existing application
+ - -t: allow test packages
+
+
+Now you can view your Slice by running the following command:
+
+> `adb shell am start -a android.intent.action.VIEW -d slice-content://com.hiteshsahu.slicedemo/`
+
+It is pretty much like loading different pages of a website by changing URLS
+
+For example:
+ - __content://com.hiteshsahu.slicedemo/__       : will gone load home slice
+ - __content://com.hiteshsahu.slicedemo/about__   : will gone load about slice
+ - __content://com.hiteshsahu.slicedemo/contact__ : will gone load contact slice
+
+and so on see the result below.
+
+####  Every time you gone launch a new slice with this adb command then that slice will be automatically get added in Slice Viewer demo app. Which you can see any time later. 
+
+ Same can be achieve with the help of Android studio but I prefer command line tool. COmmand line tool is less complicate and less overhead.  
+ 
+ 
+ ### Uninstall sliceviewer
+ 
+ If you have uninstalled _sliceviewer.apk_ by drag and drop in Launcher app  then chances are you might no longer will be able to install it back via adb command. This is a weird bug I found. In that case you will need to uninstall sliceviewer using this command. 
+ 
+     adb  uninstall com.example.android.sliceviewer
+
+## Building Custom Slices
+
+
+As already described in my previous post [Understanding SLices](http://hiteshsahu.com/blogs/android_slices) you can use Android Studio to create Slices as shown in pic below:
+
+<img src="http://hiteshsahu.com/assets/img/blogs/slices/create_slice.png" />
+
 
 ## Steps to build slices
 
