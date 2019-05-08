@@ -120,11 +120,11 @@ Similarly replace <uri_from_below> with this uris to launch Slice mapped to scre
                  
 -  __COMPLEX SLICE__: Complex slice with more than one grid and row
 
-          content://com.hiteshsahu.slicedemo.advance/combine  
-          
+            content://com.hiteshsahu.slicedemo.advance/combine  
+         
+         
 <p align="center">
-<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/combine.png" width="100%"
-     height="400%>
+<img src="https://github.com/hiteshsahu/Android-Slices-Demo/blob/master/art/combine.png" width="100%">
 </p>
           
           
