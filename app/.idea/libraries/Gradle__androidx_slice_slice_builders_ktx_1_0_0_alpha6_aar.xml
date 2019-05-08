@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.slice:slice-builders-ktx:1.0.0-alpha6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28c0d0d8c76fea99ee3d58d7c6b347ea/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28c0d0d8c76fea99ee3d58d7c6b347ea/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.slice/slice-builders-ktx/1.0.0-alpha6/12978a1d69f9836f7e5f1194a0d9bebab03514a9/slice-builders-ktx-1.0.0-alpha6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
