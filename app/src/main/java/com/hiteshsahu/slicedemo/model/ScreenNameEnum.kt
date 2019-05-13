@@ -1,4 +1,4 @@
-package com.hiteshsahu.slicedemo
+package com.hiteshsahu.slicedemo.model
 
 enum class ScreenNameEnum {
         HOME, ABOUT, CONTACT, OTHER

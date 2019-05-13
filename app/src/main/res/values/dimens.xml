@@ -1,3 +1,19 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+
+
+    <!-- Semantic definitions -->
+    <dimen name="slice_elevation">@dimen/margin_tiny</dimen>
+    <dimen name="horizontal_page_margin">@dimen/margin_small</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_small</dimen>
+    <dimen name="textSize">10sp</dimen>
+    <dimen name="smallTextSize">9sp</dimen>
+    <dimen name="align_with_slice_item">20dp</dimen>
 </resources>

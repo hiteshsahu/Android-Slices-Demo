@@ -1,4 +1,4 @@
-package com.hiteshsahu.slicedemo.receiver;
+package com.hiteshsahu.slicedemo.domain.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.hiteshsahu.slicedemo.provider
+package com.hiteshsahu.slicedemo.domain.provider
 
 import android.app.PendingIntent
 import android.content.ContentResolver
@@ -10,8 +10,8 @@ import androidx.slice.SliceProvider
 import androidx.slice.builders.ListBuilder
 import androidx.slice.builders.SliceAction
 import com.hiteshsahu.slicedemo.R
-import com.hiteshsahu.slicedemo.ScreenNameEnum
-import com.hiteshsahu.slicedemo.view.SlicesDemoActivity
+import com.hiteshsahu.slicedemo.model.ScreenNameEnum
+import com.hiteshsahu.slicedemo.view.activity.SlicesDemoActivity
 
 /**
  *

@@ -1,4 +1,4 @@
-package com.hiteshsahu.slicedemo.provider
+package com.hiteshsahu.slicedemo.domain.provider
 
 import android.app.PendingIntent
 import android.content.*
@@ -16,10 +16,10 @@ import androidx.slice.builders.ListBuilder
 import androidx.slice.builders.ListBuilder.HeaderBuilder
 import androidx.slice.builders.ListBuilder.InputRangeBuilder
 import androidx.slice.builders.SliceAction
-import com.hiteshsahu.slicedemo.ActionsEnum
-import com.hiteshsahu.slicedemo.ScreenNameEnum
-import com.hiteshsahu.slicedemo.provider.BasicSliceProvider.Factory.PAGE_ACTION
-import com.hiteshsahu.slicedemo.view.SlicesDemoActivity
+import com.hiteshsahu.slicedemo.domain.provider.BasicSliceProvider.Factory.PAGE_ACTION
+import com.hiteshsahu.slicedemo.model.ActionsEnum
+import com.hiteshsahu.slicedemo.model.ScreenNameEnum
+import com.hiteshsahu.slicedemo.view.activity.SlicesDemoActivity
 
 
 // List to keep scan result

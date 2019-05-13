@@ -1,4 +1,4 @@
-package com.hiteshsahu.slicedemo.view
+package com.hiteshsahu.slicedemo.view.activity
 
 
 import android.animation.Animator
